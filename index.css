@@ -1,0 +1,147 @@
+.container {
+  display: flex;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container .button-green {
+  background-color: #1bb93e;
+  color: white;
+  margin: 5px;
+}
+.container .button-green:hover {
+  border: 2px solid #1bb93e;
+  color: #1bb93e;
+  background-color: white;
+}
+.container .button-red {
+  background-color: #ff4143;
+  color: white;
+  margin: 5px;
+}
+.container .button-red:hover {
+  border: 2px solid #ff4143;
+  color: #ff4143;
+  background: #fff;
+}
+.container .button-orange {
+  background-color: #ff8748;
+  color: white;
+  margin: 5px;
+}
+.container .button-orange:hover {
+  border: 2px solid #ff8748;
+  color: #ff8748;
+  background: #fff;
+}
+.container .button-blue {
+  background-color: #254cff;
+  color: white;
+  margin: 5px;
+}
+.container .button-blue:hover {
+  border: 2px solid #254cff;
+  color: #254cff;
+  background: #fff;
+}
+.container .modal-body {
+  text-align: center;
+  font-size: 23px;
+  margin-top: 20%;
+}
+.container .modal-content {
+  width: 80%;
+  margin-top: 20%;
+  min-height: 250px;
+  border-radius: 10px;
+}
+.container .modal-footer {
+  justify-content: center;
+}
+.container .cancel {
+  background-color: #d0ecd6;
+  color: black;
+  width: 20%;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.container .cancel-button {
+  background-color: #dcdbd9;
+  color: #5e6961;
+  width: 20%;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.container .ok-green {
+  background-color: #1bb93e;
+  color: #fff;
+  width: 20%;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.container .ok-red {
+  background-color: #ff4143;
+  color: #fff;
+  width: 20%;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.container .ok-orange {
+  background-color: #ff8748;
+  color: #fff;
+  width: 20%;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.container .ok-blue {
+  background-color: #254cff;
+  color: #fff;
+  width: 20%;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.container .icon {
+  border: 3px solid #1bb93e;
+  background-color: #fff;
+  color: #1bb93e;
+  border-radius: 50%;
+  font-size: 70px;
+  padding: 10px;
+  text-align: center;
+  margin: -50px auto;
+}
+.container .icon2 {
+  border: 3px solid #ff4143;
+  background-color: #fff;
+  color: #ff4143;
+  border-radius: 50%;
+  width: 90px;
+  font-size: 60px;
+  padding: 15px;
+  text-align: center;
+  margin: -45px auto;
+}
+
+.container .icon3 {
+  border: 3px solid #ff8748;
+  background-color: #fff;
+  color: #ff8748;
+  border-radius: 50%;
+  width: 90px;
+  font-size: 60px;
+  padding: 10px;
+  text-align: center;
+  margin: -45px auto;
+}
+.container .icon4 {
+  border: 3px solid #254cff;
+  background-color: #fff;
+  color: #254cff;
+  border-radius: 50%;
+  width: 90px;
+  font-size: 60px;
+  padding: 10px;
+  text-align: center;
+  margin: -45px auto;
+}
